@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    screens: {
+                        // lg:'1500px'
+                    },
+                    colors: {
+                        'gold': '#AC9870',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="icon" type="image/x-icon" href="https://cdn.rode.com/website/rode-favicon.svg"> -->
+
+    <title>RØDE Microphones</title>
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="bg-white">
+        <div class="w-[100vw] mx-auto lg:w-[72%]">
+            <nav class="bg-white  dark:bg-gray-800 ">
+                <!-- lang -->
+                <div class="p-1 hidden lg:block">
+                    <div class="flex justify-between text-gray-700 ">
+                        <div class="flex">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="18" viewBox="0 0 13 18"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.49992 0.557373C3.20963 0.557373 0.537109 3.22533 0.537109 6.49236C0.537109 11.0063 6.49992 17.4359 6.49992 17.4359C6.49992 17.4359 12.4627 11.0063 12.4627 6.49236C12.4627 3.22533 9.79021 0.557373 6.49992 0.557373Z"
+                                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" fill="none"></path>
+                                <path
+                                    d="M6.50048 9.7315C8.28058 9.7315 9.72362 8.23449 9.72362 6.38784C9.72362 4.54119 8.28058 3.04419 6.50048 3.04419C4.72039 3.04419 3.27734 4.54119 3.27734 6.38784C3.27734 8.23449 4.72039 9.7315 6.50048 9.7315Z"
+                                    stroke="#484848" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" fill="none"></path>
+                            </svg>
+                            <p class="mx-1 cursor-pointer ">En </p>
+                            <i class="fa-solid fa-caret-down mt-1 cursor-pointer"></i>
+                        </div>
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="20" viewBox="0 0 16 20"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.4023 5.21899C12.4023 2.88051 10.4828 1 8.07994 1C5.67702 1 3.76465 2.88051 3.76465 5.21899C3.76465 7.52973 5.68413 9.41023 8.08704 9.41023C10.49 9.41023 12.4023 7.52973 12.4023 5.21899Z"
+                                stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"
+                                fill="none"></path>
+                            <path
+                                d="M1.14071 16.488C0.643067 17.6746 1.52461 19 2.85403 19H13.3117C14.6411 19 15.5226 17.6746 15.025 16.488C13.724 13.4626 11.1007 11.4155 8.0793 11.4155C5.04367 11.4155 2.41326 13.4626 1.14071 16.488Z"
+                                stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"
+                                fill="none"></path>
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="container w-full mx-auto lg:flex lg:justify-between lg:items-center border-yellow">
+                    <div class="lg:flex lg:items-center justify-between w-full my-2 lg:my-5 ">
+                        <div class="flex items-center justify-between ">
+                            <!-- Mobile menu button -->
+                            <div class="flex lg:hidden">
+                                <button type="button"
+                                    class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                                    aria-label="toggle menu">
+                                    <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                                        <path fill-rule="evenodd"
+                                            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div>
+                                <svg version="1.1" id="Rode_Logo" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 792.9 220.2"
+                                    xml:space="preserve" style="height: 24px;" width="100" height="27.771471812334465">
+                                    <g>
+                                        <path
+                                            d="M179.8,69.2c0-39.4-38.8-63.6-74.9-63.6H0v208.7h62.8V113.4l48.4,99.2l0.8,1.5h71.3l-49.8-87.8
+                                    C162.2,118.2,179.8,96.5,179.8,69.2z M62.8,35.8h18.4c20,0,34,14.2,34,34.4c0,29.2-16.7,35-45.7,35h-6.9V35.8H62.8z">
+                                        </path>
+                                        <polygon points="717,181.1 717,123.8 785.4,123.8 785.4,90.5 717,90.5 717,39 789,39 789,5.6 654.3,5.6 654.3,214.3 792.9,214.3 
+                                    792.9,181.1 	"></polygon>
+                                        <path d="M525.4,5.6H433v208.7h101.9c62.5,0,102.8-39.4,102.8-100.5C637.4,51.1,590.3,5.6,525.4,5.6z M572.6,105.5
+                                    c0,38.8-15.4,80.1-58.8,80.1h-20.9V34.2h18.8C553.8,34.2,572.6,70,572.6,105.5z">
+                                        </path>
+                                        <path
+                                            d="M410.8,19.6L393.3,2.1l-21.5,21.5C353,8.9,328.8,0,302.3,0C240,0,191.4,48.3,191.4,110c0,26.7,9.2,50.9,24.6,69.8
+                                    l-21.1,21.1l17.5,17.5l21.3-21.3c18.8,14.4,42.5,23.1,68.6,23.1c62.3,0,110.9-48.2,110.9-109.9c0-26.3-8.8-50.2-23.8-68.8
+                                    L410.8,19.6z M302.4,27.3c19.4,0,30.7,12.7,37.3,28.6l-81.5,81.5c-1.5-10.4-1.9-20.4-1.9-27.5C256.3,85.2,260.9,27.3,302.4,27.3z
+                                     M346.6,83.8c1.3,10,1.7,19.2,1.7,26.1c0,24.8-4.4,82.6-46.1,82.6c-19,0-30.2-12.1-36.9-27.7L346.6,83.8z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+
+                            <div class="lg:mt-0 lg:mx-4 items-center lg:hidden">
+                                <div class="inset-y-0 left-0 flex items-center">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                                        width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.30424 1.70808C4.15463 1.70808 1.64197 4.26054 1.64197 7.35807C1.64197 10.4556 4.15463 13.0081 7.30424 13.0081C10.4538 13.0081 12.9665 10.4556 12.9665 7.35807C12.9665 4.26054 10.4538 1.70808 7.30424 1.70808ZM0.331787 7.35807C0.331787 3.46311 3.47588 0.347046 7.30424 0.347046C11.1326 0.347046 14.2767 3.46311 14.2767 7.35807C14.2767 11.253 11.1326 14.3691 7.30424 14.3691C3.47588 14.3691 0.331787 11.253 0.331787 7.35807Z"
+                                            fill="#484848"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M11.628 11.6049C11.8791 11.3344 12.2939 11.3267 12.5542 11.5876L18.1317 17.1767C18.3921 17.4376 18.3996 17.8684 18.1484 18.1389C17.8972 18.4094 17.4825 18.4172 17.2221 18.1562L11.6446 12.5671C11.3842 12.3062 11.3768 11.8754 11.628 11.6049Z"
+                                            fill="#484848"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="hidden lg:flex flex-col text-gray-900 uppercase dark:text-gray-300 lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+                            <a href="#"
+                                class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">features</a>
+                            <a href="#"
+                                class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">downloads</a>
+                            <a href="#"
+                                class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">docs</a>
+                            <a href="#"
+                                class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">support</a>
+                            <a href="#"
+                                class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">blog</a>
+
+                        </div>
+                        <div class="mt-4 lg:mt-0 lg:mx-4 hidden lg:block">
+                            <span class="inset-y-0 left-0 flex items-center">
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" data-v-084759c0="" width="27"
+                                    height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.4629 20.0231C15.6892 20.0231 19.9259 15.7646 19.9259 10.5115C19.9259 5.25846 15.6892 1 10.4629 1C5.2367 1 1 5.25846 1 10.5115C1 15.7646 5.2367 20.0231 10.4629 20.0231Z"
+                                        stroke="#484848" stroke-width="2px" stroke-miterlimit="10" fill="none"></path>
+                                    <path d="M17.6455 17.6025L26.0002 26.0001" stroke="#484848" stroke-width="2px"
+                                        stroke-miterlimit="10" stroke-linecap="round" fill="none"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+
+    <!-- hero -->
+    <div class="md:flex ">
+        <!-- img-mobile -->
+        <img alt="" class=" md:hidden"
+            src="https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg"
+            src="https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg">
+        <!-- img-large -->
+        <img class="hidden md:block z-0 absolute"
+            src="https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg">
+        <div class="flex">
+            <div class="md:w-full"></div>
+            <div class="md:w-full z-10 p-7 md:p-32 text-center bg-black md:bg-transparent">
+                <img alt="" class="title-image"
+                    src="https://edge.rode.com/images/page/1/modules/5813/RODECasterProII_PL_PI_01.svg"
+                    src="https://edge.rode.com/images/page/1/modules/5813/RODECasterProII_PL_PI_01.svg">
+                <h1 class="text-white  mt-5 text-2xl"> The Revolution Is Here</h1>
+                <p class="text-gray-400 text-sm md:text-xl mt-6">The RØDECaster Pro II is the world's most powerful
+                    all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to
+                    the
+                    next level.</p>
+                <div class="text-center mt-5">
+                    <a href="#" class="text-gold font-bold mr-5">LEARN MORE <i
+                            class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#" class="bg-gold text-white font-bold py-3 px-7 rounded-full">BUY NOW</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <script>
+
+    </script>
+</body>
+
+</html>
