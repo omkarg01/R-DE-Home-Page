@@ -18,7 +18,8 @@
 - Approximately 16-18 hour taken to complete this one.
 
 #### Screenshot
-![1](https://user-images.githubusercontent.com/67428719/233117884-d6fa4c23-ebd2-4d1b-bdbd-d59904cb35f3.png)
+![1](https://user-images.githubusercontent.com/67428719/233118042-32be0b38-baed-4b8f-9fb7-1d652d3f368f.png)
+
 
 
 
